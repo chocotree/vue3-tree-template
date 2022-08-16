@@ -9,9 +9,7 @@ export function useMatchMedia(num = 768, maxOrMin = 'min') {
 
   const phoneMediaQuery = ref(null);
 
-  // if (process.client) {
   phoneMediaQuery.value = window.matchMedia(`(${maxOrMin}-width: ${num}px)`);
-  // }
 
   const handleMediaChange = () => {
     isMatches.value = phoneMediaQuery.value.matches;

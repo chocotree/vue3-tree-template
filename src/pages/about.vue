@@ -1,7 +1,9 @@
-<script setup></script>
+<script setup>
+  import HotTItle from '@/components/global/HotTItle.vue';
+</script>
 
 <template>
-  <h1>About Page</h1>
+  <HotTItle>About Page</HotTItle>
 </template>
 
 <style></style>
