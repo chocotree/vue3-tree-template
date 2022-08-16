@@ -1,6 +1,4 @@
-<script setup>
-  import 'swiper/css';
-</script>
+<script setup></script>
 
 <template>
   <div>

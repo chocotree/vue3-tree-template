@@ -52,12 +52,6 @@ export default defineConfig({
       dirs: 'src/components/autoImport',
       dts: 'src/auto-components.js',
     }),
-    // eslint(),
+    eslint(),
   ],
 });
-
-console.log('import.meta.env:', process.env.ENV);
-
-// const addEslint = () => {
-//   if (process.env === 'local')
-// }
