@@ -1,0 +1,42 @@
+{
+  "explorer.confirmDelete": true,
+  "explorer.confirmDragAndDrop": false,
+
+  // Set the default
+  "editor.formatOnSave": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // "editor.codeActionsOnSave": {
+  //     "source.fixAll.eslint": true
+  // },
+
+  // Enable per-language
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    }
+  },
+  "[vue]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    }
+  },
+  "[css]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "breadcrumbs.enabled": false,
+  "i18n-ally.displayLanguage": "zh-TW",
+  "i18n-ally.localesPaths": ["src/language"],
+  "i18n-ally.keystyle": "nested",
+  "i18n-ally.enabledParsers": ["js", "json"],
+  "volar.completion.preferredAttrNameCase": "camel"
+}
