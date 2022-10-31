@@ -10,3 +10,12 @@
 - routes base on foder structure
 - layout system
 - prettier / eslint
+
+
+### Vscode Extensions
+
+- Volar
+- UnoCss
+- Prettier
+- ESlint
+- language-postcss
