@@ -2,7 +2,9 @@
 
 - vite
 - vue3
-- windicss
+- unocss
+	- preset/uno
+	- reset/tailwind (normalize)
 - pinia
 - routes base on foder structure
 - layout system
