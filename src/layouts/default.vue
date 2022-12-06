@@ -36,7 +36,7 @@
       </div>
     </Transition>
 
-    <div w="[calc(100vw-200px)] <md:full" h="full" overflow="y-scroll">
+    <div w="[calc(100vw-200px)] lt-md:full" h="full" overflow="y-scroll">
       <RouterView />
     </div>
   </div>
