@@ -3,9 +3,7 @@ import { createPinia } from 'pinia';
 import { createRouter, createWebHistory } from 'vue-router';
 import { setupLayouts } from 'virtual:generated-layouts';
 import generatedRoutes from 'virtual:generated-pages';
-// https://github.com/unocss/unocss/tree/main/packages/reset
-import '@unocss/reset/tailwind.css';
-import 'uno.css';
+import 'virtual:windi.css';
 import 'virtual:svg-icons-register';
 import App from './App.vue';
 

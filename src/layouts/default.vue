@@ -15,9 +15,9 @@
 
 <template>
   <AppHeader />
-  <div flex="~" w="full" h="[calc(100vh_-_60px)]">
+  <div flex="~" w="full" h="[calc(100vh-60px)]">
     <!-- pc -->
-    <div v-if="isPc" shrink="0" w="200px" h="full">
+    <div v-if="isPc" flex="shrink-0" w="200px" h="full">
       <Sidebar />
     </div>
 
@@ -36,7 +36,7 @@
       </div>
     </Transition>
 
-    <div w="[calc(100vw-200px)] lt-md:full" h="full" overflow="y-scroll">
+    <div w="[calc(100vw-200px)] <md:full" h="full" overflow="y-scroll">
       <RouterView />
     </div>
   </div>
