@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
-import Unocss from 'unocss/vite';
+import WindiCSS from 'vite-plugin-windicss';
 import Layouts from 'vite-plugin-vue-layouts';
 import Pages from 'vite-plugin-pages';
 import AutoImport from 'unplugin-auto-import/vite';
@@ -26,7 +26,7 @@ export default defineConfig({
     vue(),
     Pages(),
     Layouts(),
-    Unocss(),
+    WindiCSS(),
     AutoImport({
       include: [
         /\.vue$/,
